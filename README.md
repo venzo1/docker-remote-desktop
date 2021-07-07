@@ -6,14 +6,14 @@ Docker image with RDP server using [xrdp](http://xrdp.org) on Ubuntu with [XFCE]
 
 Images are built weekly using several different versions of Ubuntu.  The following image tags are generated:
 
-* `ubuntu-groovy`, `ubuntu-20.10`, `latest`
+* `ubuntu-hirsute`, `ubuntu-21.04`, `latest`
+* `ubuntu-groovy`, `ubuntu-20.10`
 * `ubuntu-focal`, `ubuntu-20.04`
-* `ubuntu-eoan`, `ubuntu-19.10`
 * `ubuntu-bionic`, `ubuntu-18.04`
 
 Each image is tagged with both the codename and version of Ubuntu used for the base image. e.g. Ubuntu focal is tagged with `ubuntu-focal` and `ubuntu-20.04`
 
-If you pull the image without a tag or with the `latest` tag, it uses `ubuntu-groovy`.
+If you pull the image without a tag or with the `latest` tag, it uses `ubuntu-hirsute`.
 
 ## Running manually with `docker` commands
 

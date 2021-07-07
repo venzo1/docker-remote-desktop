@@ -6,9 +6,9 @@ services:
   - docker
 
 env:
+  - TAG=hirsute
   - TAG=groovy
   - TAG=focal
-  - TAG=eoan
   - TAG=bionic
 
 script:
